@@ -1,4 +1,4 @@
-### 🤖😎Multimodal AI Application
+# 🤖😎Multimodal AI Application
 
 Welcome to the **Multimodal AI Application**, a powerful tool that combines image analysis, text-to-speech (TTS), and speech-to-text (STT) capabilities into one seamless interface. Built with modern AI technologies, this app allows you to interact with images, generate lifelike speech, and transcribe audio effortlessly.
 
