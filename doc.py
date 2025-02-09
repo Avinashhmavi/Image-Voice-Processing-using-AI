@@ -13,8 +13,8 @@ import subprocess
 
 # Load environment variables
 load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+ELEVENLABS_API_KEY = st.secrets["ELEVENLABS_API_KEY"]
 
 # Initialize AI clients
 groq_client = Groq(api_key=GROQ_API_KEY)
