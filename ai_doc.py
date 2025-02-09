@@ -18,8 +18,8 @@ import streamlit as st
 load_dotenv()
 
 # Load API keys from .env
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+ELEVENLABS_API_KEY = st.secrets["ELEVENLABS_API_KEY"]
 
 # Step 1: Encode image to base64
 def encode_image(image_file):
