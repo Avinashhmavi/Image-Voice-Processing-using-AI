@@ -6,3 +6,4 @@ elevenlabs
 pydub
 SpeechRecognition
 ffmpeg
+pyaudio
