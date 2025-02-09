@@ -2,7 +2,7 @@
 
 Welcome to the **Multimodal AI Application**, a powerful tool that combines image analysis, text-to-speech (TTS), and speech-to-text (STT) capabilities into one seamless interface. Built with modern AI technologies, this app allows you to interact with images, generate lifelike speech, and transcribe audio effortlessly.
 
-Live Demo: [MULTIMODAL AI APP]([https://eaoe2mfwdquzatsmfcfyst.streamlit.app/])
+Live Demo: [MULTIMODAL AI APP](([https://eaoe2mfwdquzatsmfcfyst.streamlit.app/]))
 
 ## Table of Contents
 1. [Features](#features)
