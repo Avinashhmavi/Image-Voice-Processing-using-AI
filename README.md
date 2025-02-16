@@ -51,7 +51,7 @@ Before running the application, ensure you have the following prerequisites inst
 ### 2. **Install Dependencies**
    - Clone this repository:
      ```bash
-     git clone https://github.com/your-repo/multimodal-ai-app.git
+     git clone https://github.com/Avinashhmavi/Image-Voice-Processing-using-AI.git
      cd multimodal-ai-app
      ```
    - Create a virtual environment (optional but recommended):
