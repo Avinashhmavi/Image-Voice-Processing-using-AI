@@ -96,10 +96,10 @@ def transcribe_with_groq(stt_model, audio_filepath):
 
 # Streamlit App
 def main():
-    st.title("Multimodal AI Application")
+    st.title("🤖✨Multimodal AI Application")
 
     # Image Upload Section
-    st.header("Step 1: Analyze an Image")
+    st.header("Step 1: Analyze an Image🖼️📷")
     uploaded_image = st.file_uploader("Upload an image file", type=["jpg", "jpeg", "png"])
     if uploaded_image:
         st.image(uploaded_image, caption="Uploaded Image", use_column_width=True)
@@ -111,7 +111,7 @@ def main():
             st.write("Image Analysis Result:", analysis_result)
 
     # Text-to-Speech Section
-    st.header("Step 2: Convert Text to Speech")
+    st.header("Step 2: Convert Text to Speech🎙️🎤")
     input_text = st.text_input("Enter text to convert to speech", value="Hi, this is AI with Avinash!")
     tts_choice = st.selectbox("Choose TTS engine", ["gTTS", "ElevenLabs"])
     output_filepath = "output.mp3"
@@ -124,7 +124,7 @@ def main():
         st.audio(output_filepath)
 
     # Speech-to-Text Section
-    st.header("Step 3: Transcribe Audio")
+    st.header("Step 3: Transcribe Audio🎚️🎛️")
     uploaded_audio = st.file_uploader("Upload an audio file for transcription", type=["mp3", "wav"])
     if uploaded_audio:
         with open("uploaded_audio.mp3", "wb") as f:
